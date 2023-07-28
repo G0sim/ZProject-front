@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'SUITE-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.login-main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 7px;
+    padding: 3em;
+}
+
+.login-button {
+    font-family: 'SUITE-Regular';
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #9BA4B5;
+    border-radius: 4px;
+    padding: 7px 5px;
+    box-shadow: 0 8px 6px -4px rgba(0, 0, 0, 0.11);
+    width: 30%;
+}
+
+.login-button:hover {
+    box-shadow: none;
+    border-radius: 4px;
+    border: 1px solid #9BA4B5;
+}
+
+.login-blank {
+    font-family: 'SUITE-Regular';
+    padding: 7px 7px;
+    border-radius: 4px;
+    border: 1px solid #9BA4B5;
+    width: 42%;
+}
+
+.loi1{
+    padding: 13px;
+    justify-content: center;
+}
+
+.loi2{
+    padding: 10px 0px 0px 2px;
+    justify-content: center;
+}
+
+.loi3{
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+}
